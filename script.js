@@ -45,7 +45,7 @@ function showNextPage() {
         // หน้าที่ 4: หน้าสุดท้าย (ย้ายมาจากหน้าที่ 3 เดิม)
         const title = document.createElement("div");
         title.innerHTML = "🎄 Merry Christmas 🎄";
-        title.style.fontSize = "1.9rem";
+        title.style.fontSize = "1.8rem";
         title.style.fontWeight = "bold";
         title.style.color = "#c62828";
         title.style.marginBottom = "10px";
@@ -55,7 +55,7 @@ function showNextPage() {
         h1.style.fontSize = "6rem";
         h1.style.margin = "10px 0";
         
-        textElement.style.fontSize = "1.5rem";
+        textElement.style.fontSize = "1.3rem";
         textElement.style.fontWeight = "normal";
         textElement.style.color = "#c62828";
         textElement.innerHTML = `"ให้ทุกเรื่องราวต่อจากนี้ใจดีกับเธอ เหมือนที่เธอใจดีกับทุกคนเสมอมา"`;
