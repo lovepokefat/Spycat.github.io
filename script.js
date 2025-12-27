@@ -44,7 +44,7 @@ function showNextPage() {
       else if (currentStep === 1) {
         // หน้าที่ 4: หน้าสุดท้าย (ย้ายมาจากหน้าที่ 3 เดิม)
         const title = document.createElement("div");
-        title.innerHTML = "🎄 Merry Christmas 🎄<br>🎉Happy New Year🎉";
+        title.innerHTML = "🎄 Merry Christmas 🎄<br>&<br>🎉Happy New Year🎉";
         title.style.fontSize = "1.8rem";
         title.style.fontWeight = "bold";
         title.style.color = "#c62828";
