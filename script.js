@@ -41,7 +41,7 @@ function showNextPage() {
         textElement.style.fontSize = "1.2rem"; 
         textElement.innerHTML = "อ้อ! แอบเห็นว่าถุงเท้าคู่เดิมเริ่มขาดแล้ว...<br>เลยซื้อคู่ใหม่มาให้ใส่ไปทำงานน่ะ 😁"; 
       }
-      else if (currentStep === 4) {
+      else if (currentStep === 1) {
         // หน้าที่ 4: หน้าสุดท้าย (ย้ายมาจากหน้าที่ 3 เดิม)
         const title = document.createElement("div");
         title.innerHTML = "🎄 Merry Christmas 🎄<br>🎉Happy New Year🎉";
@@ -68,7 +68,7 @@ function showNextPage() {
       card.style.transform = "scale(1) rotate(0deg)";
 
       // ถ้ายังไม่ถึงหน้าสุดท้าย ให้เปลี่ยนหน้าอัตโนมัติ (หน่วงเวลาอ่าน 3 วินาที)
-      if (currentStep < 4) {
+      if (currentStep < 1) {
         setTimeout(showNextPage, 3000);
       }
     }, 1500); 
