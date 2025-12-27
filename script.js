@@ -26,16 +26,16 @@ function showNextPage() {
 
     setTimeout(() => {
       // ตรวจสอบลำดับหน้า
-      if (currentStep === 1) {
+      if (currentStep === 5) {
         h1.innerHTML = "🎁";
         textElement.innerHTML = "พร้อมนะ!!";
         textElement.style.animation = "none";
       } 
-      else if (currentStep === 2) {
+      else if (currentStep === 6) {
         h1.innerHTML = "✨";
         textElement.innerHTML = "ขอให้คริสต์มาสปีนี้พิเศษกว่าปีไหนๆ";
       }
-      else if (currentStep === 3) {
+      else if (currentStep === 7) {
         // หน้าที่ 3: เรื่องถุงเท้า (เพิ่มใหม่ตามคำขอ)
         h1.innerHTML = "🧦"; 
         textElement.style.fontSize = "1.2rem"; 
@@ -44,13 +44,13 @@ function showNextPage() {
       else if (currentStep === 4) {
         // หน้าที่ 4: หน้าสุดท้าย (ย้ายมาจากหน้าที่ 3 เดิม)
         const title = document.createElement("div");
-        title.innerHTML = "🎄 Merry Christmas 🎄";
+        title.innerHTML = "🎄 Merry Christmas 🎄<br>🎉Happy New Year🎉";
         title.style.fontSize = "1.8rem";
         title.style.fontWeight = "bold";
         title.style.color = "#c62828";
         title.style.marginBottom = "10px";
         card.insertBefore(title, h1);
-
+        
         h1.innerHTML = "🐰";
         h1.style.fontSize = "6rem";
         h1.style.margin = "10px 0";
